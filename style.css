@@ -1,0 +1,117 @@
+/*
+	To add comment
+	CSS is used for styling our web page
+    Syntax: ;
+    * { 
+    property:  value;
+     }
+*/
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img{
+	height: 260px;
+	width: 260px;
+}
+
+/**id -seleector - #idName*/
+#landing {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	/*arrange the contents of an element with flex, as a column*/
+	flex-direction: column;
+	/*center all contents of an element with flex as a column (horizontally*/
+	align-items: center;
+	/*center all contents of an element with flex as a column (vertically)*/
+	justify-content: center;
+}
+#gallery {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#hobbies {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	/*hex decimal can be added as a value for color, this will 
+	allow us to specify a particular color*/
+	color: #a660a7;
+}
+/*class selector - .classname*/
+.tools {
+	border: 5px solid #000000;
+	padding: 40px;
+	margin:  40px;
+	height: 400px;
+	/*width of this element is at least 75% of its parent element
+	or the element that contains*/
+	width: 75%;
+}
+
+.tool{
+	border: 5px solid #ffffff;
+	padding: 40px;
+	margin:  40px;
+	height: 400px;
+	/*width of this element is at least 75% of its parent element
+	or the element that contains*/
+	width: 75%;
+}
+
+.too{
+	border: 5px solid #ffffff;
+	padding: 40px;
+	margin:  40px;
+	height: 500px;
+	/*width of this element is at least 75% of its parent element
+	or the element that contains*/
+	width: 75%;
+}
+html {
+	scroll-behavior: smooth;
+}
