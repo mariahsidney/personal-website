@@ -1,11 +1,4 @@
-/*
-	To add comment
-	CSS is used for styling our web page
-    Syntax: ;
-    * { 
-    property:  value;
-     }
-*/
+
 
 *{
 	font-family: "Roboto", sans-serif;
@@ -19,19 +12,11 @@ img{
 	width: 260px;
 }
 
-/**id -seleector - #idName*/
 #landing {
-	/*vh - viewport height - measurement based on the height of the
-	webpage and the device you're currently viewing the page in*/
 	height: 100vh;
-	/*we can manipulate the contents of an element using flexbox*/
-	/*by default, arranges the content of an element in a row*/
 	display: flex;
-	/*arrange the contents of an element with flex, as a column*/
 	flex-direction: column;
-	/*center all contents of an element with flex as a column (horizontally*/
 	align-items: center;
-	/*center all contents of an element with flex as a column (vertically)*/
 	justify-content: center;
 }
 #gallery {
